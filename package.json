@@ -4,7 +4,7 @@
   "description": "SLP SDK powered by BITBOX",
   "main": "lib/SLP",
   "scripts": {
-    "build": "node ./node_modules/gulp/bin/gulp.js build && ./node_modules/typescript/bin/tsc",
+    "build": "node ./node_modules/gulp/bin/gulp.js build && node ./node_modules/typescript/bin/tsc",
     "test": "TEST=unit nyc --reporter=text mocha --require babel-core/register --timeout 10000 test/ --exit",
     "test:unit": "TEST=unit nyc --reporter=text mocha --require babel-core/register --timeout 10000 test/ --exit",
     "test:integration": "TEST=integration nyc --reporter=text mocha --require babel-core/register --timeout 30000 test/ --exit",
