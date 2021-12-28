@@ -1,7 +1,7 @@
 {
   "name": "slp-sdk",
-  "version": "4.13.2",
-  "description": "SLP SDK powered by BITBOX",
+  "version": "4.15.1-rc1",
+  "description": "SLP SDK powered by FoldingCash",
   "main": "lib/SLP",
   "scripts": {
     "build": "node ./node_modules/gulp/bin/gulp.js build && node ./node_modules/typescript/bin/tsc",
@@ -17,7 +17,8 @@
   "contributors": [
     "Chris Troutner <chris.troutner@gmail.com>",
     "James Cramer @ SLP",
-    "Jt blockparty.sh"
+    "Jt blockparty.sh",
+    "Miguel Molina Jr"
   ],
   "license": "MIT",
   "engines": {
