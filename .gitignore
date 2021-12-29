@@ -9,3 +9,4 @@ start-my-infra
 wallet*
 
 package-lock.json
+/.vs/slnx.sqlite
